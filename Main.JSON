@@ -134,6 +134,8 @@
     "marketwatch.com": ["Finance"],
     "bloomberg.com": ["Finance", "News"],
     "coinmarketcap.com": ["Finance"],
+    "albert.com": ["Finance"],
+    "plaid.com": ["Finance"],
     "techcrunch.com": ["Technology", "News"],
     "github.com": ["Technology"],
     "stackoverflow.com": ["Technology", "Education"],

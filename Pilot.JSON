@@ -131,7 +131,7 @@
     "finance.yahoo.com": ["Finance"],
     "investopedia.com": ["Finance"],
     "marketwatch.com": ["Finance"],
-    "bloomberg.com": ["News", "Finance"],
+    "bloomberg.com": ["Finance", "News"],
     "coinmarketcap.com": ["Finance"],
     "techcrunch.com": ["Technology", "News"],
     "github.com": ["Technology"],
