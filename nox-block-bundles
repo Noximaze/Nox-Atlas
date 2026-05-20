@@ -1,1 +1,91 @@
-Coming soon...
+{
+  "schemaVersion": 1,
+  "generatedUtc": "2026-05-20T00:00:00Z",
+  "product": "Nox Block",
+  "source": "Nox Atlas",
+  "bundles": [
+    {
+      "id": "facebook-meta",
+      "name": "Facebook / Meta",
+      "vendor": "Meta",
+      "description": "Blocks Facebook, Meta, Messenger, Instagram-adjacent Meta infrastructure, tracking, and related domains.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "tags": ["facebook", "meta", "messenger", "social-media", "tracking"],
+      "rules": [
+        {
+          "domain": "facebook.com",
+          "match": "domain",
+          "label": "Facebook"
+        },
+        {
+          "domain": "*.facebook.com",
+          "match": "wildcard",
+          "label": "Facebook subdomains"
+        },
+        {
+          "domain": "fb.com",
+          "match": "domain",
+          "label": "Facebook short domain"
+        },
+        {
+          "domain": "*.fb.com",
+          "match": "wildcard",
+          "label": "Facebook short subdomains"
+        },
+        {
+          "domain": "fbcdn.net",
+          "match": "domain",
+          "label": "Facebook CDN"
+        },
+        {
+          "domain": "*.fbcdn.net",
+          "match": "wildcard",
+          "label": "Facebook CDN subdomains"
+        },
+        {
+          "domain": "messenger.com",
+          "match": "domain",
+          "label": "Messenger"
+        },
+        {
+          "domain": "*.messenger.com",
+          "match": "wildcard",
+          "label": "Messenger subdomains"
+        },
+        {
+          "domain": "meta.com",
+          "match": "domain",
+          "label": "Meta"
+        },
+        {
+          "domain": "*.meta.com",
+          "match": "wildcard",
+          "label": "Meta subdomains"
+        },
+        {
+          "domain": "m.me",
+          "match": "domain",
+          "label": "Messenger short links"
+        },
+        {
+          "domain": "*.m.me",
+          "match": "wildcard",
+          "label": "Messenger short link subdomains"
+        },
+        {
+          "domain": "facebook.net",
+          "match": "domain",
+          "label": "Facebook infrastructure"
+        },
+        {
+          "domain": "*.facebook.net",
+          "match": "wildcard",
+          "label": "Facebook infrastructure subdomains"
+        }
+      ]
+    }
+  ]
+}
