@@ -5,86 +5,67 @@
   "source": "Nox Atlas",
   "bundles": [
     {
-      "id": "facebook-meta",
-      "name": "Facebook / Meta",
+      "id": "facebook-meta-full-block",
+      "name": "Facebook / Meta - Full Block",
       "vendor": "Meta",
-      "description": "Blocks Facebook, Meta, Messenger, Instagram-adjacent Meta infrastructure, tracking, and related domains.",
+      "description": "Fully blocks Facebook, Meta, Messenger, Facebook CDN, tracking, and related infrastructure across DNS and browser enforcement.",
       "category": "Social Media",
       "defaultType": "blocked",
       "defaultSinkhole": true,
       "defaultAllowOneHourUnlock": false,
-      "tags": ["facebook", "meta", "messenger", "social-media", "tracking"],
+      "defaultAllowedHours": {
+        "enabled": false,
+        "start": null,
+        "end": null
+      },
+      "tags": ["facebook", "meta", "messenger", "social-media", "tracking", "full-block"],
       "rules": [
-        {
-          "domain": "facebook.com",
-          "match": "domain",
-          "label": "Facebook"
-        },
-        {
-          "domain": "*.facebook.com",
-          "match": "wildcard",
-          "label": "Facebook subdomains"
-        },
-        {
-          "domain": "fb.com",
-          "match": "domain",
-          "label": "Facebook short domain"
-        },
-        {
-          "domain": "*.fb.com",
-          "match": "wildcard",
-          "label": "Facebook short subdomains"
-        },
-        {
-          "domain": "fbcdn.net",
-          "match": "domain",
-          "label": "Facebook CDN"
-        },
-        {
-          "domain": "*.fbcdn.net",
-          "match": "wildcard",
-          "label": "Facebook CDN subdomains"
-        },
-        {
-          "domain": "messenger.com",
-          "match": "domain",
-          "label": "Messenger"
-        },
-        {
-          "domain": "*.messenger.com",
-          "match": "wildcard",
-          "label": "Messenger subdomains"
-        },
-        {
-          "domain": "meta.com",
-          "match": "domain",
-          "label": "Meta"
-        },
-        {
-          "domain": "*.meta.com",
-          "match": "wildcard",
-          "label": "Meta subdomains"
-        },
-        {
-          "domain": "m.me",
-          "match": "domain",
-          "label": "Messenger short links"
-        },
-        {
-          "domain": "*.m.me",
-          "match": "wildcard",
-          "label": "Messenger short link subdomains"
-        },
-        {
-          "domain": "facebook.net",
-          "match": "domain",
-          "label": "Facebook infrastructure"
-        },
-        {
-          "domain": "*.facebook.net",
-          "match": "wildcard",
-          "label": "Facebook infrastructure subdomains"
-        }
+        { "domain": "facebook.com", "match": "domain", "label": "Facebook" },
+        { "domain": "*.facebook.com", "match": "wildcard", "label": "Facebook subdomains" },
+        { "domain": "fb.com", "match": "domain", "label": "Facebook short domain" },
+        { "domain": "*.fb.com", "match": "wildcard", "label": "Facebook short subdomains" },
+        { "domain": "fbcdn.net", "match": "domain", "label": "Facebook CDN" },
+        { "domain": "*.fbcdn.net", "match": "wildcard", "label": "Facebook CDN subdomains" },
+        { "domain": "messenger.com", "match": "domain", "label": "Messenger" },
+        { "domain": "*.messenger.com", "match": "wildcard", "label": "Messenger subdomains" },
+        { "domain": "meta.com", "match": "domain", "label": "Meta" },
+        { "domain": "*.meta.com", "match": "wildcard", "label": "Meta subdomains" },
+        { "domain": "m.me", "match": "domain", "label": "Messenger short links" },
+        { "domain": "*.m.me", "match": "wildcard", "label": "Messenger short link subdomains" },
+        { "domain": "facebook.net", "match": "domain", "label": "Facebook infrastructure" },
+        { "domain": "*.facebook.net", "match": "wildcard", "label": "Facebook infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "facebook-meta-distraction-unlock",
+      "name": "Facebook / Meta - Distraction with 1 Hour Unlock",
+      "vendor": "Meta",
+      "description": "Marks Facebook, Meta, Messenger, Facebook CDN, tracking, and related infrastructure as a distraction with an optional 1 hour unlock.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultAllowedHours": {
+        "enabled": false,
+        "start": null,
+        "end": null
+      },
+      "tags": ["facebook", "meta", "messenger", "social-media", "tracking", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "facebook.com", "match": "domain", "label": "Facebook" },
+        { "domain": "*.facebook.com", "match": "wildcard", "label": "Facebook subdomains" },
+        { "domain": "fb.com", "match": "domain", "label": "Facebook short domain" },
+        { "domain": "*.fb.com", "match": "wildcard", "label": "Facebook short subdomains" },
+        { "domain": "fbcdn.net", "match": "domain", "label": "Facebook CDN" },
+        { "domain": "*.fbcdn.net", "match": "wildcard", "label": "Facebook CDN subdomains" },
+        { "domain": "messenger.com", "match": "domain", "label": "Messenger" },
+        { "domain": "*.messenger.com", "match": "wildcard", "label": "Messenger subdomains" },
+        { "domain": "meta.com", "match": "domain", "label": "Meta" },
+        { "domain": "*.meta.com", "match": "wildcard", "label": "Meta subdomains" },
+        { "domain": "m.me", "match": "domain", "label": "Messenger short links" },
+        { "domain": "*.m.me", "match": "wildcard", "label": "Messenger short link subdomains" },
+        { "domain": "facebook.net", "match": "domain", "label": "Facebook infrastructure" },
+        { "domain": "*.facebook.net", "match": "wildcard", "label": "Facebook infrastructure subdomains" }
       ]
     }
   ]
