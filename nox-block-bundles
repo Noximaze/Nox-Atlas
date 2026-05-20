@@ -67,6 +67,126 @@
         { "domain": "facebook.net", "match": "domain", "label": "Facebook infrastructure" },
         { "domain": "*.facebook.net", "match": "wildcard", "label": "Facebook infrastructure subdomains" }
       ]
+    },
+    {
+      "id": "x-twitter-full-block",
+      "name": "X / Twitter - Full Block",
+      "vendor": "X Corp",
+      "description": "Fully blocks X, Twitter, t.co short links, media delivery, and related infrastructure across DNS and browser enforcement.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultAllowedHours": {
+        "enabled": false,
+        "start": null,
+        "end": null
+      },
+      "tags": ["x", "twitter", "social-media", "tracking", "full-block"],
+      "rules": [
+        { "domain": "x.com", "match": "domain", "label": "X" },
+        { "domain": "*.x.com", "match": "wildcard", "label": "X subdomains" },
+        { "domain": "twitter.com", "match": "domain", "label": "Twitter" },
+        { "domain": "*.twitter.com", "match": "wildcard", "label": "Twitter subdomains" },
+        { "domain": "t.co", "match": "domain", "label": "Twitter short links" },
+        { "domain": "*.t.co", "match": "wildcard", "label": "Twitter short link subdomains" },
+        { "domain": "twimg.com", "match": "domain", "label": "Twitter media CDN" },
+        { "domain": "*.twimg.com", "match": "wildcard", "label": "Twitter media CDN subdomains" },
+        { "domain": "twitterinc.com", "match": "domain", "label": "Twitter corporate infrastructure" },
+        { "domain": "*.twitterinc.com", "match": "wildcard", "label": "Twitter corporate infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "x-twitter-distraction-unlock",
+      "name": "X / Twitter - Distraction with 1 Hour Unlock",
+      "vendor": "X Corp",
+      "description": "Marks X, Twitter, t.co short links, media delivery, and related infrastructure as a distraction with an optional 1 hour unlock.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultAllowedHours": {
+        "enabled": false,
+        "start": null,
+        "end": null
+      },
+      "tags": ["x", "twitter", "social-media", "tracking", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "x.com", "match": "domain", "label": "X" },
+        { "domain": "*.x.com", "match": "wildcard", "label": "X subdomains" },
+        { "domain": "twitter.com", "match": "domain", "label": "Twitter" },
+        { "domain": "*.twitter.com", "match": "wildcard", "label": "Twitter subdomains" },
+        { "domain": "t.co", "match": "domain", "label": "Twitter short links" },
+        { "domain": "*.t.co", "match": "wildcard", "label": "Twitter short link subdomains" },
+        { "domain": "twimg.com", "match": "domain", "label": "Twitter media CDN" },
+        { "domain": "*.twimg.com", "match": "wildcard", "label": "Twitter media CDN subdomains" },
+        { "domain": "twitterinc.com", "match": "domain", "label": "Twitter corporate infrastructure" },
+        { "domain": "*.twitterinc.com", "match": "wildcard", "label": "Twitter corporate infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "tiktok-full-block",
+      "name": "TikTok - Full Block",
+      "vendor": "ByteDance",
+      "description": "Fully blocks TikTok, TikTok CDN, short links, and related infrastructure across DNS and browser enforcement.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultAllowedHours": {
+        "enabled": false,
+        "start": null,
+        "end": null
+      },
+      "tags": ["tiktok", "bytedance", "social-media", "tracking", "full-block"],
+      "rules": [
+        { "domain": "tiktok.com", "match": "domain", "label": "TikTok" },
+        { "domain": "*.tiktok.com", "match": "wildcard", "label": "TikTok subdomains" },
+        { "domain": "tiktokcdn.com", "match": "domain", "label": "TikTok CDN" },
+        { "domain": "*.tiktokcdn.com", "match": "wildcard", "label": "TikTok CDN subdomains" },
+        { "domain": "tiktokv.com", "match": "domain", "label": "TikTok video infrastructure" },
+        { "domain": "*.tiktokv.com", "match": "wildcard", "label": "TikTok video infrastructure subdomains" },
+        { "domain": "tiktokcdn-us.com", "match": "domain", "label": "TikTok US CDN" },
+        { "domain": "*.tiktokcdn-us.com", "match": "wildcard", "label": "TikTok US CDN subdomains" },
+        { "domain": "vm.tiktok.com", "match": "domain", "label": "TikTok short links" },
+        { "domain": "vt.tiktok.com", "match": "domain", "label": "TikTok short links" },
+        { "domain": "musical.ly", "match": "domain", "label": "Musical.ly legacy domain" },
+        { "domain": "*.musical.ly", "match": "wildcard", "label": "Musical.ly legacy subdomains" },
+        { "domain": "byteoversea.com", "match": "domain", "label": "ByteDance overseas infrastructure" },
+        { "domain": "*.byteoversea.com", "match": "wildcard", "label": "ByteDance overseas infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "tiktok-distraction-unlock",
+      "name": "TikTok - Distraction with 1 Hour Unlock",
+      "vendor": "ByteDance",
+      "description": "Marks TikTok, TikTok CDN, short links, and related infrastructure as a distraction with an optional 1 hour unlock.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultAllowedHours": {
+        "enabled": false,
+        "start": null,
+        "end": null
+      },
+      "tags": ["tiktok", "bytedance", "social-media", "tracking", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "tiktok.com", "match": "domain", "label": "TikTok" },
+        { "domain": "*.tiktok.com", "match": "wildcard", "label": "TikTok subdomains" },
+        { "domain": "tiktokcdn.com", "match": "domain", "label": "TikTok CDN" },
+        { "domain": "*.tiktokcdn.com", "match": "wildcard", "label": "TikTok CDN subdomains" },
+        { "domain": "tiktokv.com", "match": "domain", "label": "TikTok video infrastructure" },
+        { "domain": "*.tiktokv.com", "match": "wildcard", "label": "TikTok video infrastructure subdomains" },
+        { "domain": "tiktokcdn-us.com", "match": "domain", "label": "TikTok US CDN" },
+        { "domain": "*.tiktokcdn-us.com", "match": "wildcard", "label": "TikTok US CDN subdomains" },
+        { "domain": "vm.tiktok.com", "match": "domain", "label": "TikTok short links" },
+        { "domain": "vt.tiktok.com", "match": "domain", "label": "TikTok short links" },
+        { "domain": "musical.ly", "match": "domain", "label": "Musical.ly legacy domain" },
+        { "domain": "*.musical.ly", "match": "wildcard", "label": "Musical.ly legacy subdomains" },
+        { "domain": "byteoversea.com", "match": "domain", "label": "ByteDance overseas infrastructure" },
+        { "domain": "*.byteoversea.com", "match": "wildcard", "label": "ByteDance overseas infrastructure subdomains" }
+      ]
     }
   ]
 }
