@@ -8,16 +8,13 @@
       "id": "facebook-meta-full-block",
       "name": "Facebook / Meta - Full Block",
       "vendor": "Meta",
+      "iconDomain": "facebook.com",
       "description": "Fully blocks Facebook, Meta, Messenger, Facebook CDN, tracking, and related infrastructure across DNS and browser enforcement.",
       "category": "Social Media",
       "defaultType": "blocked",
       "defaultSinkhole": true,
       "defaultAllowOneHourUnlock": false,
-      "defaultAllowedHours": {
-        "enabled": false,
-        "start": null,
-        "end": null
-      },
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null },
       "tags": ["facebook", "meta", "messenger", "social-media", "tracking", "full-block"],
       "rules": [
         { "domain": "facebook.com", "match": "domain", "label": "Facebook" },
@@ -40,16 +37,13 @@
       "id": "facebook-meta-distraction-unlock",
       "name": "Facebook / Meta - Distraction with 1 Hour Unlock",
       "vendor": "Meta",
+      "iconDomain": "facebook.com",
       "description": "Marks Facebook, Meta, Messenger, Facebook CDN, tracking, and related infrastructure as a distraction with an optional 1 hour unlock.",
       "category": "Social Media",
       "defaultType": "distraction",
       "defaultSinkhole": false,
       "defaultAllowOneHourUnlock": true,
-      "defaultAllowedHours": {
-        "enabled": false,
-        "start": null,
-        "end": null
-      },
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null },
       "tags": ["facebook", "meta", "messenger", "social-media", "tracking", "distraction", "one-hour-unlock"],
       "rules": [
         { "domain": "facebook.com", "match": "domain", "label": "Facebook" },
@@ -72,16 +66,13 @@
       "id": "x-twitter-full-block",
       "name": "X / Twitter - Full Block",
       "vendor": "X Corp",
+      "iconDomain": "x.com",
       "description": "Fully blocks X, Twitter, t.co short links, media delivery, and related infrastructure across DNS and browser enforcement.",
       "category": "Social Media",
       "defaultType": "blocked",
       "defaultSinkhole": true,
       "defaultAllowOneHourUnlock": false,
-      "defaultAllowedHours": {
-        "enabled": false,
-        "start": null,
-        "end": null
-      },
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null },
       "tags": ["x", "twitter", "social-media", "tracking", "full-block"],
       "rules": [
         { "domain": "x.com", "match": "domain", "label": "X" },
@@ -100,16 +91,13 @@
       "id": "x-twitter-distraction-unlock",
       "name": "X / Twitter - Distraction with 1 Hour Unlock",
       "vendor": "X Corp",
+      "iconDomain": "x.com",
       "description": "Marks X, Twitter, t.co short links, media delivery, and related infrastructure as a distraction with an optional 1 hour unlock.",
       "category": "Social Media",
       "defaultType": "distraction",
       "defaultSinkhole": false,
       "defaultAllowOneHourUnlock": true,
-      "defaultAllowedHours": {
-        "enabled": false,
-        "start": null,
-        "end": null
-      },
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null },
       "tags": ["x", "twitter", "social-media", "tracking", "distraction", "one-hour-unlock"],
       "rules": [
         { "domain": "x.com", "match": "domain", "label": "X" },
@@ -128,16 +116,13 @@
       "id": "tiktok-full-block",
       "name": "TikTok - Full Block",
       "vendor": "ByteDance",
+      "iconDomain": "tiktok.com",
       "description": "Fully blocks TikTok, TikTok CDN, short links, and related infrastructure across DNS and browser enforcement.",
       "category": "Social Media",
       "defaultType": "blocked",
       "defaultSinkhole": true,
       "defaultAllowOneHourUnlock": false,
-      "defaultAllowedHours": {
-        "enabled": false,
-        "start": null,
-        "end": null
-      },
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null },
       "tags": ["tiktok", "bytedance", "social-media", "tracking", "full-block"],
       "rules": [
         { "domain": "tiktok.com", "match": "domain", "label": "TikTok" },
@@ -160,16 +145,13 @@
       "id": "tiktok-distraction-unlock",
       "name": "TikTok - Distraction with 1 Hour Unlock",
       "vendor": "ByteDance",
+      "iconDomain": "tiktok.com",
       "description": "Marks TikTok, TikTok CDN, short links, and related infrastructure as a distraction with an optional 1 hour unlock.",
       "category": "Social Media",
       "defaultType": "distraction",
       "defaultSinkhole": false,
       "defaultAllowOneHourUnlock": true,
-      "defaultAllowedHours": {
-        "enabled": false,
-        "start": null,
-        "end": null
-      },
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null },
       "tags": ["tiktok", "bytedance", "social-media", "tracking", "distraction", "one-hour-unlock"],
       "rules": [
         { "domain": "tiktok.com", "match": "domain", "label": "TikTok" },
