@@ -259,6 +259,36 @@
         { "domain": "discordsays.com", "label": "Discord Activities" },
         { "domain": "*.discordsays.com", "label": "Discord Activities subdomains" }
       ]
+    },
+    {
+      "id": "steam-distraction-unlock",
+      "name": "Steam - Distraction with 1 Hour Unlock",
+      "vendor": "Valve Corporation",
+      "iconDomain": "steampowered.com",
+      "description": "Marks Steam as a distraction with an optional 1 hour unlock. Covers the Steam store, library, community, chat, and content delivery infrastructure across PC, mobile, and TV.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["steam", "valve", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "steampowered.com", "label": "Steam" },
+        { "domain": "*.steampowered.com", "label": "Steam subdomains" },
+        { "domain": "steamcommunity.com", "label": "Steam Community" },
+        { "domain": "*.steamcommunity.com", "label": "Steam Community subdomains" },
+        { "domain": "steamstatic.com", "label": "Steam static assets CDN" },
+        { "domain": "*.steamstatic.com", "label": "Steam static assets CDN subdomains" },
+        { "domain": "steamgames.com", "label": "Steam game content" },
+        { "domain": "*.steamgames.com", "label": "Steam game content subdomains" },
+        { "domain": "steamusercontent.com", "label": "Steam user-generated content" },
+        { "domain": "*.steamusercontent.com", "label": "Steam user-generated content subdomains" },
+        { "domain": "steam-chat.com", "label": "Steam Chat" },
+        { "domain": "*.steam-chat.com", "label": "Steam Chat subdomains" },
+        { "domain": "valvesoftware.com", "label": "Valve Software" },
+        { "domain": "*.valvesoftware.com", "label": "Valve Software subdomains" }
+      ]
     }
   ]
 }
