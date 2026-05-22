@@ -175,6 +175,90 @@
         { "domain": "byteoversea.com", "label": "ByteDance overseas infrastructure" },
         { "domain": "*.byteoversea.com", "label": "ByteDance overseas infrastructure subdomains" }
       ]
+    },
+    {
+      "id": "blizzard-gaming-distraction-unlock",
+      "name": "Blizzard / Battle.net - Distraction with 1 Hour Unlock",
+      "vendor": "Blizzard Entertainment",
+      "iconDomain": "battle.net",
+      "description": "Marks Blizzard gaming services as a distraction with an optional 1 hour unlock. Covers Battle.net launcher, Overwatch, World of Warcraft, and related infrastructure across PC, mobile, and console.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["blizzard", "battle.net", "overwatch", "world-of-warcraft", "wow", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "battle.net", "label": "Battle.net" },
+        { "domain": "*.battle.net", "label": "Battle.net subdomains" },
+        { "domain": "blizzard.com", "label": "Blizzard Entertainment" },
+        { "domain": "*.blizzard.com", "label": "Blizzard subdomains" },
+        { "domain": "blizzardentertainment.com", "label": "Blizzard Entertainment corporate" },
+        { "domain": "*.blizzardentertainment.com", "label": "Blizzard Entertainment corporate subdomains" },
+        { "domain": "blizzard-dns.com", "label": "Blizzard DNS infrastructure" },
+        { "domain": "*.blizzard-dns.com", "label": "Blizzard DNS infrastructure subdomains" },
+        { "domain": "overwatch.com", "label": "Overwatch" },
+        { "domain": "*.overwatch.com", "label": "Overwatch subdomains" },
+        { "domain": "playoverwatch.com", "label": "Overwatch game site" },
+        { "domain": "*.playoverwatch.com", "label": "Overwatch game site subdomains" },
+        { "domain": "worldofwarcraft.com", "label": "World of Warcraft" },
+        { "domain": "*.worldofwarcraft.com", "label": "World of Warcraft subdomains" }
+      ]
+    },
+    {
+      "id": "twitch-distraction-unlock",
+      "name": "Twitch - Distraction with 1 Hour Unlock",
+      "vendor": "Twitch Interactive",
+      "iconDomain": "twitch.tv",
+      "description": "Marks Twitch as a distraction with an optional 1 hour unlock. Covers streaming, chat, clips, VODs, and related CDN infrastructure across PC, mobile, and TV apps.",
+      "category": "Entertainment",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["twitch", "streaming", "gaming", "entertainment", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "twitch.tv", "label": "Twitch" },
+        { "domain": "*.twitch.tv", "label": "Twitch subdomains" },
+        { "domain": "twitchapps.com", "label": "Twitch apps" },
+        { "domain": "*.twitchapps.com", "label": "Twitch apps subdomains" },
+        { "domain": "twitchgaming.com", "label": "Twitch Gaming" },
+        { "domain": "*.twitchgaming.com", "label": "Twitch Gaming subdomains" },
+        { "domain": "twitchsvc.net", "label": "Twitch services infrastructure" },
+        { "domain": "*.twitchsvc.net", "label": "Twitch services infrastructure subdomains" },
+        { "domain": "jtvnw.net", "label": "Twitch media CDN" },
+        { "domain": "*.jtvnw.net", "label": "Twitch media CDN subdomains" }
+      ]
+    },
+    {
+      "id": "discord-distraction-unlock",
+      "name": "Discord - Distraction with 1 Hour Unlock",
+      "vendor": "Discord Inc.",
+      "iconDomain": "discord.com",
+      "description": "Marks Discord as a distraction with an optional 1 hour unlock. Covers messaging, voice, video, file attachments, and activities infrastructure across PC, mobile, and browser.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["discord", "chat", "voice", "gaming", "social-media", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "discord.com", "label": "Discord" },
+        { "domain": "*.discord.com", "label": "Discord subdomains" },
+        { "domain": "discordapp.com", "label": "Discord app (legacy domain)" },
+        { "domain": "*.discordapp.com", "label": "Discord app subdomains" },
+        { "domain": "discordapp.net", "label": "Discord media CDN" },
+        { "domain": "*.discordapp.net", "label": "Discord media CDN subdomains" },
+        { "domain": "discord.gg", "label": "Discord invite links" },
+        { "domain": "*.discord.gg", "label": "Discord invite link subdomains" },
+        { "domain": "discord.media", "label": "Discord voice/video media" },
+        { "domain": "*.discord.media", "label": "Discord voice/video media subdomains" },
+        { "domain": "discordsays.com", "label": "Discord Activities" },
+        { "domain": "*.discordsays.com", "label": "Discord Activities subdomains" }
+      ]
     }
   ]
 }
