@@ -18,19 +18,12 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["facebook", "meta", "messenger", "social-media", "tracking", "full-block"],
       "rules": [
-        { "domain": "facebook.com", "label": "Facebook" },
         { "domain": "*.facebook.com", "label": "Facebook subdomains" },
-        { "domain": "fb.com", "label": "Facebook short domain" },
         { "domain": "*.fb.com", "label": "Facebook short subdomains" },
-        { "domain": "fbcdn.net", "label": "Facebook CDN" },
         { "domain": "*.fbcdn.net", "label": "Facebook CDN subdomains" },
-        { "domain": "messenger.com", "label": "Messenger" },
         { "domain": "*.messenger.com", "label": "Messenger subdomains" },
-        { "domain": "meta.com", "label": "Meta" },
         { "domain": "*.meta.com", "label": "Meta subdomains" },
-        { "domain": "m.me", "label": "Messenger short links" },
         { "domain": "*.m.me", "label": "Messenger short link subdomains" },
-        { "domain": "facebook.net", "label": "Facebook infrastructure" },
         { "domain": "*.facebook.net", "label": "Facebook infrastructure subdomains" }
       ]
     },
@@ -48,19 +41,12 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["facebook", "meta", "messenger", "social-media", "tracking", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "facebook.com", "label": "Facebook" },
         { "domain": "*.facebook.com", "label": "Facebook subdomains" },
-        { "domain": "fb.com", "label": "Facebook short domain" },
         { "domain": "*.fb.com", "label": "Facebook short subdomains" },
-        { "domain": "fbcdn.net", "label": "Facebook CDN" },
         { "domain": "*.fbcdn.net", "label": "Facebook CDN subdomains" },
-        { "domain": "messenger.com", "label": "Messenger" },
         { "domain": "*.messenger.com", "label": "Messenger subdomains" },
-        { "domain": "meta.com", "label": "Meta" },
         { "domain": "*.meta.com", "label": "Meta subdomains" },
-        { "domain": "m.me", "label": "Messenger short links" },
         { "domain": "*.m.me", "label": "Messenger short link subdomains" },
-        { "domain": "facebook.net", "label": "Facebook infrastructure" },
         { "domain": "*.facebook.net", "label": "Facebook infrastructure subdomains" }
       ]
     },
@@ -78,15 +64,10 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["x", "twitter", "social-media", "tracking", "full-block"],
       "rules": [
-        { "domain": "x.com", "label": "X" },
         { "domain": "*.x.com", "label": "X subdomains" },
-        { "domain": "twitter.com", "label": "Twitter" },
         { "domain": "*.twitter.com", "label": "Twitter subdomains" },
-        { "domain": "t.co", "label": "Twitter short links" },
         { "domain": "*.t.co", "label": "Twitter short link subdomains" },
-        { "domain": "twimg.com", "label": "Twitter media CDN" },
         { "domain": "*.twimg.com", "label": "Twitter media CDN subdomains" },
-        { "domain": "twitterinc.com", "label": "Twitter corporate infrastructure" },
         { "domain": "*.twitterinc.com", "label": "Twitter corporate infrastructure subdomains" }
       ]
     },
@@ -104,15 +85,10 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["x", "twitter", "social-media", "tracking", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "x.com", "label": "X" },
         { "domain": "*.x.com", "label": "X subdomains" },
-        { "domain": "twitter.com", "label": "Twitter" },
         { "domain": "*.twitter.com", "label": "Twitter subdomains" },
-        { "domain": "t.co", "label": "Twitter short links" },
         { "domain": "*.t.co", "label": "Twitter short link subdomains" },
-        { "domain": "twimg.com", "label": "Twitter media CDN" },
         { "domain": "*.twimg.com", "label": "Twitter media CDN subdomains" },
-        { "domain": "twitterinc.com", "label": "Twitter corporate infrastructure" },
         { "domain": "*.twitterinc.com", "label": "Twitter corporate infrastructure subdomains" }
       ]
     },
@@ -130,19 +106,11 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["tiktok", "bytedance", "social-media", "tracking", "full-block"],
       "rules": [
-        { "domain": "tiktok.com", "label": "TikTok" },
         { "domain": "*.tiktok.com", "label": "TikTok subdomains" },
-        { "domain": "tiktokcdn.com", "label": "TikTok CDN" },
         { "domain": "*.tiktokcdn.com", "label": "TikTok CDN subdomains" },
-        { "domain": "tiktokv.com", "label": "TikTok video infrastructure" },
         { "domain": "*.tiktokv.com", "label": "TikTok video infrastructure subdomains" },
-        { "domain": "tiktokcdn-us.com", "label": "TikTok US CDN" },
         { "domain": "*.tiktokcdn-us.com", "label": "TikTok US CDN subdomains" },
-        { "domain": "vm.tiktok.com", "label": "TikTok short links" },
-        { "domain": "vt.tiktok.com", "label": "TikTok short links (vt)" },
-        { "domain": "musical.ly", "label": "Musical.ly legacy domain" },
         { "domain": "*.musical.ly", "label": "Musical.ly legacy subdomains" },
-        { "domain": "byteoversea.com", "label": "ByteDance overseas infrastructure" },
         { "domain": "*.byteoversea.com", "label": "ByteDance overseas infrastructure subdomains" }
       ]
     },
@@ -160,19 +128,11 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["tiktok", "bytedance", "social-media", "tracking", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "tiktok.com", "label": "TikTok" },
         { "domain": "*.tiktok.com", "label": "TikTok subdomains" },
-        { "domain": "tiktokcdn.com", "label": "TikTok CDN" },
         { "domain": "*.tiktokcdn.com", "label": "TikTok CDN subdomains" },
-        { "domain": "tiktokv.com", "label": "TikTok video infrastructure" },
         { "domain": "*.tiktokv.com", "label": "TikTok video infrastructure subdomains" },
-        { "domain": "tiktokcdn-us.com", "label": "TikTok US CDN" },
         { "domain": "*.tiktokcdn-us.com", "label": "TikTok US CDN subdomains" },
-        { "domain": "vm.tiktok.com", "label": "TikTok short links" },
-        { "domain": "vt.tiktok.com", "label": "TikTok short links (vt)" },
-        { "domain": "musical.ly", "label": "Musical.ly legacy domain" },
         { "domain": "*.musical.ly", "label": "Musical.ly legacy subdomains" },
-        { "domain": "byteoversea.com", "label": "ByteDance overseas infrastructure" },
         { "domain": "*.byteoversea.com", "label": "ByteDance overseas infrastructure subdomains" }
       ]
     },
@@ -190,19 +150,12 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["blizzard", "battle.net", "overwatch", "world-of-warcraft", "wow", "gaming", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "battle.net", "label": "Battle.net" },
         { "domain": "*.battle.net", "label": "Battle.net subdomains" },
-        { "domain": "blizzard.com", "label": "Blizzard Entertainment" },
         { "domain": "*.blizzard.com", "label": "Blizzard subdomains" },
-        { "domain": "blizzardentertainment.com", "label": "Blizzard Entertainment corporate" },
         { "domain": "*.blizzardentertainment.com", "label": "Blizzard Entertainment corporate subdomains" },
-        { "domain": "blizzard-dns.com", "label": "Blizzard DNS infrastructure" },
         { "domain": "*.blizzard-dns.com", "label": "Blizzard DNS infrastructure subdomains" },
-        { "domain": "overwatch.com", "label": "Overwatch" },
         { "domain": "*.overwatch.com", "label": "Overwatch subdomains" },
-        { "domain": "playoverwatch.com", "label": "Overwatch game site" },
         { "domain": "*.playoverwatch.com", "label": "Overwatch game site subdomains" },
-        { "domain": "worldofwarcraft.com", "label": "World of Warcraft" },
         { "domain": "*.worldofwarcraft.com", "label": "World of Warcraft subdomains" }
       ]
     },
@@ -220,15 +173,10 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["twitch", "streaming", "gaming", "entertainment", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "twitch.tv", "label": "Twitch" },
         { "domain": "*.twitch.tv", "label": "Twitch subdomains" },
-        { "domain": "twitchapps.com", "label": "Twitch apps" },
         { "domain": "*.twitchapps.com", "label": "Twitch apps subdomains" },
-        { "domain": "twitchgaming.com", "label": "Twitch Gaming" },
         { "domain": "*.twitchgaming.com", "label": "Twitch Gaming subdomains" },
-        { "domain": "twitchsvc.net", "label": "Twitch services infrastructure" },
         { "domain": "*.twitchsvc.net", "label": "Twitch services infrastructure subdomains" },
-        { "domain": "jtvnw.net", "label": "Twitch media CDN" },
         { "domain": "*.jtvnw.net", "label": "Twitch media CDN subdomains" }
       ]
     },
@@ -246,17 +194,11 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["discord", "chat", "voice", "gaming", "social-media", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "discord.com", "label": "Discord" },
         { "domain": "*.discord.com", "label": "Discord subdomains" },
-        { "domain": "discordapp.com", "label": "Discord app (legacy domain)" },
         { "domain": "*.discordapp.com", "label": "Discord app subdomains" },
-        { "domain": "discordapp.net", "label": "Discord media CDN" },
         { "domain": "*.discordapp.net", "label": "Discord media CDN subdomains" },
-        { "domain": "discord.gg", "label": "Discord invite links" },
         { "domain": "*.discord.gg", "label": "Discord invite link subdomains" },
-        { "domain": "discord.media", "label": "Discord voice/video media" },
         { "domain": "*.discord.media", "label": "Discord voice/video media subdomains" },
-        { "domain": "discordsays.com", "label": "Discord Activities" },
         { "domain": "*.discordsays.com", "label": "Discord Activities subdomains" }
       ]
     },
@@ -274,19 +216,12 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["steam", "valve", "gaming", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "steampowered.com", "label": "Steam" },
         { "domain": "*.steampowered.com", "label": "Steam subdomains" },
-        { "domain": "steamcommunity.com", "label": "Steam Community" },
         { "domain": "*.steamcommunity.com", "label": "Steam Community subdomains" },
-        { "domain": "steamstatic.com", "label": "Steam static assets CDN" },
         { "domain": "*.steamstatic.com", "label": "Steam static assets CDN subdomains" },
-        { "domain": "steamgames.com", "label": "Steam game content" },
         { "domain": "*.steamgames.com", "label": "Steam game content subdomains" },
-        { "domain": "steamusercontent.com", "label": "Steam user-generated content" },
         { "domain": "*.steamusercontent.com", "label": "Steam user-generated content subdomains" },
-        { "domain": "steam-chat.com", "label": "Steam Chat" },
         { "domain": "*.steam-chat.com", "label": "Steam Chat subdomains" },
-        { "domain": "valvesoftware.com", "label": "Valve Software" },
         { "domain": "*.valvesoftware.com", "label": "Valve Software subdomains" }
       ]
     },
@@ -304,11 +239,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["tinder", "dating", "social-media", "full-block"],
       "rules": [
-        { "domain": "tinder.com", "label": "Tinder" },
         { "domain": "*.tinder.com", "label": "Tinder subdomains" },
-        { "domain": "gotinder.com", "label": "Tinder API (legacy)" },
         { "domain": "*.gotinder.com", "label": "Tinder API subdomains" },
-        { "domain": "tindersparks.com", "label": "Tinder marketing" },
         { "domain": "*.tindersparks.com", "label": "Tinder marketing subdomains" }
       ]
     },
@@ -326,11 +258,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["tinder", "dating", "social-media", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "tinder.com", "label": "Tinder" },
         { "domain": "*.tinder.com", "label": "Tinder subdomains" },
-        { "domain": "gotinder.com", "label": "Tinder API (legacy)" },
         { "domain": "*.gotinder.com", "label": "Tinder API subdomains" },
-        { "domain": "tindersparks.com", "label": "Tinder marketing" },
         { "domain": "*.tindersparks.com", "label": "Tinder marketing subdomains" }
       ]
     },
@@ -348,11 +277,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["fortnite", "epic-games", "gaming", "full-block"],
       "rules": [
-        { "domain": "fortnite.com", "label": "Fortnite" },
         { "domain": "*.fortnite.com", "label": "Fortnite subdomains" },
-        { "domain": "epicgames.com", "label": "Epic Games" },
         { "domain": "*.epicgames.com", "label": "Epic Games subdomains" },
-        { "domain": "epicusercontent.com", "label": "Epic user content" },
         { "domain": "*.epicusercontent.com", "label": "Epic user content subdomains" }
       ]
     },
@@ -370,11 +296,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["fortnite", "epic-games", "gaming", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "fortnite.com", "label": "Fortnite" },
         { "domain": "*.fortnite.com", "label": "Fortnite subdomains" },
-        { "domain": "epicgames.com", "label": "Epic Games" },
         { "domain": "*.epicgames.com", "label": "Epic Games subdomains" },
-        { "domain": "epicusercontent.com", "label": "Epic user content" },
         { "domain": "*.epicusercontent.com", "label": "Epic user content subdomains" }
       ]
     },
@@ -392,13 +315,9 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["spotify", "music", "streaming", "entertainment", "full-block"],
       "rules": [
-        { "domain": "spotify.com", "label": "Spotify" },
         { "domain": "*.spotify.com", "label": "Spotify subdomains" },
-        { "domain": "scdn.co", "label": "Spotify content CDN" },
         { "domain": "*.scdn.co", "label": "Spotify content CDN subdomains" },
-        { "domain": "spotifycdn.com", "label": "Spotify CDN" },
         { "domain": "*.spotifycdn.com", "label": "Spotify CDN subdomains" },
-        { "domain": "spoti.fi", "label": "Spotify short links" },
         { "domain": "*.spoti.fi", "label": "Spotify short link subdomains" }
       ]
     },
@@ -416,13 +335,9 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["spotify", "music", "streaming", "entertainment", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "spotify.com", "label": "Spotify" },
         { "domain": "*.spotify.com", "label": "Spotify subdomains" },
-        { "domain": "scdn.co", "label": "Spotify content CDN" },
         { "domain": "*.scdn.co", "label": "Spotify content CDN subdomains" },
-        { "domain": "spotifycdn.com", "label": "Spotify CDN" },
         { "domain": "*.spotifycdn.com", "label": "Spotify CDN subdomains" },
-        { "domain": "spoti.fi", "label": "Spotify short links" },
         { "domain": "*.spoti.fi", "label": "Spotify short link subdomains" }
       ]
     },
@@ -440,11 +355,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["league-of-legends", "lol", "riot-games", "gaming", "full-block"],
       "rules": [
-        { "domain": "leagueoflegends.com", "label": "League of Legends" },
         { "domain": "*.leagueoflegends.com", "label": "League of Legends subdomains" },
-        { "domain": "riotgames.com", "label": "Riot Games" },
         { "domain": "*.riotgames.com", "label": "Riot Games subdomains" },
-        { "domain": "riotcdn.net", "label": "Riot Games CDN" },
         { "domain": "*.riotcdn.net", "label": "Riot Games CDN subdomains" }
       ]
     },
@@ -462,11 +374,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["league-of-legends", "lol", "riot-games", "gaming", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "leagueoflegends.com", "label": "League of Legends" },
         { "domain": "*.leagueoflegends.com", "label": "League of Legends subdomains" },
-        { "domain": "riotgames.com", "label": "Riot Games" },
         { "domain": "*.riotgames.com", "label": "Riot Games subdomains" },
-        { "domain": "riotcdn.net", "label": "Riot Games CDN" },
         { "domain": "*.riotcdn.net", "label": "Riot Games CDN subdomains" }
       ]
     },
@@ -484,17 +393,11 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["vk", "vkontakte", "social-media", "russia", "full-block"],
       "rules": [
-        { "domain": "vk.com", "label": "VK" },
         { "domain": "*.vk.com", "label": "VK subdomains" },
-        { "domain": "vk.me", "label": "VK messaging" },
         { "domain": "*.vk.me", "label": "VK messaging subdomains" },
-        { "domain": "vkuser.net", "label": "VK media CDN" },
         { "domain": "*.vkuser.net", "label": "VK media CDN subdomains" },
-        { "domain": "vkuseraudio.net", "label": "VK audio CDN" },
         { "domain": "*.vkuseraudio.net", "label": "VK audio CDN subdomains" },
-        { "domain": "vkvideo.ru", "label": "VK Video" },
         { "domain": "*.vkvideo.ru", "label": "VK Video subdomains" },
-        { "domain": "userapi.com", "label": "VK media storage API" },
         { "domain": "*.userapi.com", "label": "VK media storage API subdomains" }
       ]
     },
@@ -512,17 +415,11 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["vk", "vkontakte", "social-media", "russia", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "vk.com", "label": "VK" },
         { "domain": "*.vk.com", "label": "VK subdomains" },
-        { "domain": "vk.me", "label": "VK messaging" },
         { "domain": "*.vk.me", "label": "VK messaging subdomains" },
-        { "domain": "vkuser.net", "label": "VK media CDN" },
         { "domain": "*.vkuser.net", "label": "VK media CDN subdomains" },
-        { "domain": "vkuseraudio.net", "label": "VK audio CDN" },
         { "domain": "*.vkuseraudio.net", "label": "VK audio CDN subdomains" },
-        { "domain": "vkvideo.ru", "label": "VK Video" },
         { "domain": "*.vkvideo.ru", "label": "VK Video subdomains" },
-        { "domain": "userapi.com", "label": "VK media storage API" },
         { "domain": "*.userapi.com", "label": "VK media storage API subdomains" }
       ]
     },
@@ -540,9 +437,7 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["9gag", "memes", "entertainment", "full-block"],
       "rules": [
-        { "domain": "9gag.com", "label": "9GAG" },
         { "domain": "*.9gag.com", "label": "9GAG subdomains" },
-        { "domain": "9cache.com", "label": "9GAG media CDN" },
         { "domain": "*.9cache.com", "label": "9GAG media CDN subdomains" }
       ]
     },
@@ -560,9 +455,7 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["9gag", "memes", "entertainment", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "9gag.com", "label": "9GAG" },
         { "domain": "*.9gag.com", "label": "9GAG subdomains" },
-        { "domain": "9cache.com", "label": "9GAG media CDN" },
         { "domain": "*.9cache.com", "label": "9GAG media CDN subdomains" }
       ]
     },
@@ -580,11 +473,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["dailymotion", "video", "streaming", "entertainment", "full-block"],
       "rules": [
-        { "domain": "dailymotion.com", "label": "Dailymotion" },
         { "domain": "*.dailymotion.com", "label": "Dailymotion subdomains" },
-        { "domain": "dmcdn.net", "label": "Dailymotion CDN" },
         { "domain": "*.dmcdn.net", "label": "Dailymotion CDN subdomains" },
-        { "domain": "dai.ly", "label": "Dailymotion short links" },
         { "domain": "*.dai.ly", "label": "Dailymotion short link subdomains" }
       ]
     },
@@ -602,11 +492,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["dailymotion", "video", "streaming", "entertainment", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "dailymotion.com", "label": "Dailymotion" },
         { "domain": "*.dailymotion.com", "label": "Dailymotion subdomains" },
-        { "domain": "dmcdn.net", "label": "Dailymotion CDN" },
         { "domain": "*.dmcdn.net", "label": "Dailymotion CDN subdomains" },
-        { "domain": "dai.ly", "label": "Dailymotion short links" },
         { "domain": "*.dai.ly", "label": "Dailymotion short link subdomains" }
       ]
     },
@@ -624,11 +511,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["bereal", "social-media", "photo", "full-block"],
       "rules": [
-        { "domain": "bereal.com", "label": "BeReal" },
         { "domain": "*.bereal.com", "label": "BeReal subdomains" },
-        { "domain": "bere.al", "label": "BeReal (short domain)" },
         { "domain": "*.bere.al", "label": "BeReal short domain subdomains" },
-        { "domain": "bereal.network", "label": "BeReal infrastructure" },
         { "domain": "*.bereal.network", "label": "BeReal infrastructure subdomains" }
       ]
     },
@@ -646,11 +530,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["bereal", "social-media", "photo", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "bereal.com", "label": "BeReal" },
         { "domain": "*.bereal.com", "label": "BeReal subdomains" },
-        { "domain": "bere.al", "label": "BeReal (short domain)" },
         { "domain": "*.bere.al", "label": "BeReal short domain subdomains" },
-        { "domain": "bereal.network", "label": "BeReal infrastructure" },
         { "domain": "*.bereal.network", "label": "BeReal infrastructure subdomains" }
       ]
     },
@@ -668,15 +549,10 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["snapchat", "snap", "social-media", "full-block"],
       "rules": [
-        { "domain": "snapchat.com", "label": "Snapchat" },
         { "domain": "*.snapchat.com", "label": "Snapchat subdomains" },
-        { "domain": "snap.com", "label": "Snap Inc." },
         { "domain": "*.snap.com", "label": "Snap Inc. subdomains" },
-        { "domain": "snapkit.com", "label": "Snap Kit platform" },
         { "domain": "*.snapkit.com", "label": "Snap Kit platform subdomains" },
-        { "domain": "sc-cdn.net", "label": "Snapchat media CDN" },
         { "domain": "*.sc-cdn.net", "label": "Snapchat media CDN subdomains" },
-        { "domain": "bitmoji.com", "label": "Bitmoji (Snap)" },
         { "domain": "*.bitmoji.com", "label": "Bitmoji subdomains" }
       ]
     },
@@ -694,15 +570,10 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["snapchat", "snap", "social-media", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "snapchat.com", "label": "Snapchat" },
         { "domain": "*.snapchat.com", "label": "Snapchat subdomains" },
-        { "domain": "snap.com", "label": "Snap Inc." },
         { "domain": "*.snap.com", "label": "Snap Inc. subdomains" },
-        { "domain": "snapkit.com", "label": "Snap Kit platform" },
         { "domain": "*.snapkit.com", "label": "Snap Kit platform subdomains" },
-        { "domain": "sc-cdn.net", "label": "Snapchat media CDN" },
         { "domain": "*.sc-cdn.net", "label": "Snapchat media CDN subdomains" },
-        { "domain": "bitmoji.com", "label": "Bitmoji (Snap)" },
         { "domain": "*.bitmoji.com", "label": "Bitmoji subdomains" }
       ]
     },
@@ -720,11 +591,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["roblox", "gaming", "full-block"],
       "rules": [
-        { "domain": "roblox.com", "label": "Roblox" },
         { "domain": "*.roblox.com", "label": "Roblox subdomains" },
-        { "domain": "rbxcdn.com", "label": "Roblox CDN" },
         { "domain": "*.rbxcdn.com", "label": "Roblox CDN subdomains" },
-        { "domain": "robloxlabs.com", "label": "Roblox Labs" },
         { "domain": "*.robloxlabs.com", "label": "Roblox Labs subdomains" }
       ]
     },
@@ -742,11 +610,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["roblox", "gaming", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "roblox.com", "label": "Roblox" },
         { "domain": "*.roblox.com", "label": "Roblox subdomains" },
-        { "domain": "rbxcdn.com", "label": "Roblox CDN" },
         { "domain": "*.rbxcdn.com", "label": "Roblox CDN subdomains" },
-        { "domain": "robloxlabs.com", "label": "Roblox Labs" },
         { "domain": "*.robloxlabs.com", "label": "Roblox Labs subdomains" }
       ]
     },
@@ -764,13 +629,9 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["minecraft", "mojang", "gaming", "full-block"],
       "rules": [
-        { "domain": "minecraft.net", "label": "Minecraft" },
         { "domain": "*.minecraft.net", "label": "Minecraft subdomains" },
-        { "domain": "mojang.com", "label": "Mojang Studios" },
         { "domain": "*.mojang.com", "label": "Mojang Studios subdomains" },
-        { "domain": "minecraftservices.com", "label": "Minecraft authentication and skin service" },
         { "domain": "*.minecraftservices.com", "label": "Minecraft services subdomains" },
-        { "domain": "minecraftdungeons.net", "label": "Minecraft Dungeons" },
         { "domain": "*.minecraftdungeons.net", "label": "Minecraft Dungeons subdomains" }
       ]
     },
@@ -788,13 +649,9 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["minecraft", "mojang", "gaming", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "minecraft.net", "label": "Minecraft" },
         { "domain": "*.minecraft.net", "label": "Minecraft subdomains" },
-        { "domain": "mojang.com", "label": "Mojang Studios" },
         { "domain": "*.mojang.com", "label": "Mojang Studios subdomains" },
-        { "domain": "minecraftservices.com", "label": "Minecraft authentication and skin service" },
         { "domain": "*.minecraftservices.com", "label": "Minecraft services subdomains" },
-        { "domain": "minecraftdungeons.net", "label": "Minecraft Dungeons" },
         { "domain": "*.minecraftdungeons.net", "label": "Minecraft Dungeons subdomains" }
       ]
     },
@@ -812,11 +669,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["whatsapp", "meta", "messaging", "social-media", "full-block"],
       "rules": [
-        { "domain": "whatsapp.com", "label": "WhatsApp" },
         { "domain": "*.whatsapp.com", "label": "WhatsApp subdomains" },
-        { "domain": "whatsapp.net", "label": "WhatsApp messaging infrastructure" },
         { "domain": "*.whatsapp.net", "label": "WhatsApp messaging infrastructure subdomains" },
-        { "domain": "wa.me", "label": "WhatsApp click-to-chat links" },
         { "domain": "*.wa.me", "label": "WhatsApp click-to-chat subdomains" }
       ]
     },
@@ -834,11 +688,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["whatsapp", "meta", "messaging", "social-media", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "whatsapp.com", "label": "WhatsApp" },
         { "domain": "*.whatsapp.com", "label": "WhatsApp subdomains" },
-        { "domain": "whatsapp.net", "label": "WhatsApp messaging infrastructure" },
         { "domain": "*.whatsapp.net", "label": "WhatsApp messaging infrastructure subdomains" },
-        { "domain": "wa.me", "label": "WhatsApp click-to-chat links" },
         { "domain": "*.wa.me", "label": "WhatsApp click-to-chat subdomains" }
       ]
     },
@@ -856,11 +707,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["playstation", "psn", "sony", "gaming", "full-block"],
       "rules": [
-        { "domain": "playstation.com", "label": "PlayStation" },
         { "domain": "*.playstation.com", "label": "PlayStation subdomains" },
-        { "domain": "playstation.net", "label": "PSN backend services" },
         { "domain": "*.playstation.net", "label": "PSN backend services subdomains" },
-        { "domain": "sonyentertainmentnetwork.com", "label": "Sony Entertainment Network (legacy)" },
         { "domain": "*.sonyentertainmentnetwork.com", "label": "Sony Entertainment Network subdomains" }
       ]
     },
@@ -878,11 +726,8 @@
       "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
       "tags": ["playstation", "psn", "sony", "gaming", "distraction", "one-hour-unlock"],
       "rules": [
-        { "domain": "playstation.com", "label": "PlayStation" },
         { "domain": "*.playstation.com", "label": "PlayStation subdomains" },
-        { "domain": "playstation.net", "label": "PSN backend services" },
         { "domain": "*.playstation.net", "label": "PSN backend services subdomains" },
-        { "domain": "sonyentertainmentnetwork.com", "label": "Sony Entertainment Network (legacy)" },
         { "domain": "*.sonyentertainmentnetwork.com", "label": "Sony Entertainment Network subdomains" }
       ]
     }
