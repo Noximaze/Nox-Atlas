@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 1,
+  "generatedUtc": "2026-05-22T00:00:00Z",
+  "product": "Nox Block",
+  "source": "Nox Atlas",
+  "bundles": [
+    {
+      "id": "facebook-meta-full-block",
+      "name": "Facebook / Meta - Full Block",
+      "vendor": "Meta",
+      "iconDomain": "facebook.com",
+      "description": "Fully blocks Facebook, Meta, Messenger, Facebook CDN, tracking, and related infrastructure across DNS and browser enforcement.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["facebook", "meta", "messenger", "social-media", "tracking", "full-block"],
+      "rules": [
+        { "domain": "*.facebook.com", "label": "Facebook subdomains" },
+        { "domain": "*.fb.com", "label": "Facebook short subdomains" },
+        { "domain": "*.fbcdn.net", "label": "Facebook CDN subdomains" },
+        { "domain": "*.messenger.com", "label": "Messenger subdomains" },
+        { "domain": "*.meta.com", "label": "Meta subdomains" },
+        { "domain": "*.m.me", "label": "Messenger short link subdomains" },
+        { "domain": "*.facebook.net", "label": "Facebook infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "facebook-meta-distraction-unlock",
+      "name": "Facebook / Meta - Distraction with 1 Hour Unlock",
+      "vendor": "Meta",
+      "iconDomain": "facebook.com",
+      "description": "Marks Facebook, Meta, Messenger, Facebook CDN, tracking, and related infrastructure as a distraction with an optional 1 hour unlock.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["facebook", "meta", "messenger", "social-media", "tracking", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.facebook.com", "label": "Facebook subdomains" },
+        { "domain": "*.fb.com", "label": "Facebook short subdomains" },
+        { "domain": "*.fbcdn.net", "label": "Facebook CDN subdomains" },
+        { "domain": "*.messenger.com", "label": "Messenger subdomains" },
+        { "domain": "*.meta.com", "label": "Meta subdomains" },
+        { "domain": "*.m.me", "label": "Messenger short link subdomains" },
+        { "domain": "*.facebook.net", "label": "Facebook infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "x-twitter-full-block",
+      "name": "X / Twitter - Full Block",
+      "vendor": "X Corp",
+      "iconDomain": "x.com",
+      "description": "Fully blocks X, Twitter, t.co short links, media delivery, and related infrastructure across DNS and browser enforcement.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["x", "twitter", "social-media", "tracking", "full-block"],
+      "rules": [
+        { "domain": "*.x.com", "label": "X subdomains" },
+        { "domain": "*.twitter.com", "label": "Twitter subdomains" },
+        { "domain": "*.t.co", "label": "Twitter short link subdomains" },
+        { "domain": "*.twimg.com", "label": "Twitter media CDN subdomains" },
+        { "domain": "*.twitterinc.com", "label": "Twitter corporate infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "x-twitter-distraction-unlock",
+      "name": "X / Twitter - Distraction with 1 Hour Unlock",
+      "vendor": "X Corp",
+      "iconDomain": "x.com",
+      "description": "Marks X, Twitter, t.co short links, media delivery, and related infrastructure as a distraction with an optional 1 hour unlock.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["x", "twitter", "social-media", "tracking", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.x.com", "label": "X subdomains" },
+        { "domain": "*.twitter.com", "label": "Twitter subdomains" },
+        { "domain": "*.t.co", "label": "Twitter short link subdomains" },
+        { "domain": "*.twimg.com", "label": "Twitter media CDN subdomains" },
+        { "domain": "*.twitterinc.com", "label": "Twitter corporate infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "tiktok-full-block",
+      "name": "TikTok - Full Block",
+      "vendor": "ByteDance",
+      "iconDomain": "tiktok.com",
+      "description": "Fully blocks TikTok, TikTok CDN, short links, and related infrastructure across DNS and browser enforcement.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["tiktok", "bytedance", "social-media", "tracking", "full-block"],
+      "rules": [
+        { "domain": "*.tiktok.com", "label": "TikTok subdomains" },
+        { "domain": "*.tiktokcdn.com", "label": "TikTok CDN subdomains" },
+        { "domain": "*.tiktokv.com", "label": "TikTok video infrastructure subdomains" },
+        { "domain": "*.tiktokcdn-us.com", "label": "TikTok US CDN subdomains" },
+        { "domain": "*.musical.ly", "label": "Musical.ly legacy subdomains" },
+        { "domain": "*.byteoversea.com", "label": "ByteDance overseas infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "tiktok-distraction-unlock",
+      "name": "TikTok - Distraction with 1 Hour Unlock",
+      "vendor": "ByteDance",
+      "iconDomain": "tiktok.com",
+      "description": "Marks TikTok, TikTok CDN, short links, and related infrastructure as a distraction with an optional 1 hour unlock.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["tiktok", "bytedance", "social-media", "tracking", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.tiktok.com", "label": "TikTok subdomains" },
+        { "domain": "*.tiktokcdn.com", "label": "TikTok CDN subdomains" },
+        { "domain": "*.tiktokv.com", "label": "TikTok video infrastructure subdomains" },
+        { "domain": "*.tiktokcdn-us.com", "label": "TikTok US CDN subdomains" },
+        { "domain": "*.musical.ly", "label": "Musical.ly legacy subdomains" },
+        { "domain": "*.byteoversea.com", "label": "ByteDance overseas infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "blizzard-gaming-distraction-unlock",
+      "name": "Blizzard / Battle.net - Distraction with 1 Hour Unlock",
+      "vendor": "Blizzard Entertainment",
+      "iconDomain": "battle.net",
+      "description": "Marks Blizzard gaming services as a distraction with an optional 1 hour unlock. Covers Battle.net launcher, Overwatch, World of Warcraft, and related infrastructure across PC, mobile, and console.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["blizzard", "battle.net", "overwatch", "world-of-warcraft", "wow", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.battle.net", "label": "Battle.net subdomains" },
+        { "domain": "*.blizzard.com", "label": "Blizzard subdomains" },
+        { "domain": "*.blizzardentertainment.com", "label": "Blizzard Entertainment corporate subdomains" },
+        { "domain": "*.blizzard-dns.com", "label": "Blizzard DNS infrastructure subdomains" },
+        { "domain": "*.overwatch.com", "label": "Overwatch subdomains" },
+        { "domain": "*.playoverwatch.com", "label": "Overwatch game site subdomains" },
+        { "domain": "*.worldofwarcraft.com", "label": "World of Warcraft subdomains" }
+      ]
+    },
+    {
+      "id": "twitch-distraction-unlock",
+      "name": "Twitch - Distraction with 1 Hour Unlock",
+      "vendor": "Twitch Interactive",
+      "iconDomain": "twitch.tv",
+      "description": "Marks Twitch as a distraction with an optional 1 hour unlock. Covers streaming, chat, clips, VODs, and related CDN infrastructure across PC, mobile, and TV apps.",
+      "category": "Entertainment",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["twitch", "streaming", "gaming", "entertainment", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.twitch.tv", "label": "Twitch subdomains" },
+        { "domain": "*.twitchapps.com", "label": "Twitch apps subdomains" },
+        { "domain": "*.twitchgaming.com", "label": "Twitch Gaming subdomains" },
+        { "domain": "*.twitchsvc.net", "label": "Twitch services infrastructure subdomains" },
+        { "domain": "*.jtvnw.net", "label": "Twitch media CDN subdomains" }
+      ]
+    },
+    {
+      "id": "discord-distraction-unlock",
+      "name": "Discord - Distraction with 1 Hour Unlock",
+      "vendor": "Discord Inc.",
+      "iconDomain": "discord.com",
+      "description": "Marks Discord as a distraction with an optional 1 hour unlock. Covers messaging, voice, video, file attachments, and activities infrastructure across PC, mobile, and browser.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["discord", "chat", "voice", "gaming", "social-media", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.discord.com", "label": "Discord subdomains" },
+        { "domain": "*.discordapp.com", "label": "Discord app subdomains" },
+        { "domain": "*.discordapp.net", "label": "Discord media CDN subdomains" },
+        { "domain": "*.discord.gg", "label": "Discord invite link subdomains" },
+        { "domain": "*.discord.media", "label": "Discord voice/video media subdomains" },
+        { "domain": "*.discordsays.com", "label": "Discord Activities subdomains" }
+      ]
+    },
+    {
+      "id": "steam-distraction-unlock",
+      "name": "Steam - Distraction with 1 Hour Unlock",
+      "vendor": "Valve Corporation",
+      "iconDomain": "steampowered.com",
+      "description": "Marks Steam as a distraction with an optional 1 hour unlock. Covers the Steam store, library, community, chat, and content delivery infrastructure across PC, mobile, and TV.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["steam", "valve", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.steampowered.com", "label": "Steam subdomains" },
+        { "domain": "*.steamcommunity.com", "label": "Steam Community subdomains" },
+        { "domain": "*.steamstatic.com", "label": "Steam static assets CDN subdomains" },
+        { "domain": "*.steamgames.com", "label": "Steam game content subdomains" },
+        { "domain": "*.steamusercontent.com", "label": "Steam user-generated content subdomains" },
+        { "domain": "*.steam-chat.com", "label": "Steam Chat subdomains" },
+        { "domain": "*.valvesoftware.com", "label": "Valve Software subdomains" }
+      ]
+    },
+    {
+      "id": "tinder-full-block",
+      "name": "Tinder - Full Block",
+      "vendor": "Match Group",
+      "iconDomain": "tinder.com",
+      "description": "Fully blocks Tinder across DNS and browser enforcement, covering the app, website, and API infrastructure on PC, mobile, and tablet.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["tinder", "dating", "social-media", "full-block"],
+      "rules": [
+        { "domain": "*.tinder.com", "label": "Tinder subdomains" },
+        { "domain": "*.gotinder.com", "label": "Tinder API subdomains" },
+        { "domain": "*.tindersparks.com", "label": "Tinder marketing subdomains" }
+      ]
+    },
+    {
+      "id": "tinder-distraction-unlock",
+      "name": "Tinder - Distraction with 1 Hour Unlock",
+      "vendor": "Match Group",
+      "iconDomain": "tinder.com",
+      "description": "Marks Tinder as a distraction with an optional 1 hour unlock, covering the app, website, and API infrastructure on PC, mobile, and tablet.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["tinder", "dating", "social-media", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.tinder.com", "label": "Tinder subdomains" },
+        { "domain": "*.gotinder.com", "label": "Tinder API subdomains" },
+        { "domain": "*.tindersparks.com", "label": "Tinder marketing subdomains" }
+      ]
+    },
+    {
+      "id": "fortnite-epic-games-full-block",
+      "name": "Fortnite / Epic Games - Full Block",
+      "vendor": "Epic Games",
+      "iconDomain": "fortnite.com",
+      "description": "Fully blocks Fortnite and the Epic Games launcher, store, and account services across DNS and browser enforcement on PC, mobile, and console.",
+      "category": "Gaming",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["fortnite", "epic-games", "gaming", "full-block"],
+      "rules": [
+        { "domain": "*.fortnite.com", "label": "Fortnite subdomains" },
+        { "domain": "*.epicgames.com", "label": "Epic Games subdomains" },
+        { "domain": "*.epicusercontent.com", "label": "Epic user content subdomains" }
+      ]
+    },
+    {
+      "id": "fortnite-epic-games-distraction-unlock",
+      "name": "Fortnite / Epic Games - Distraction with 1 Hour Unlock",
+      "vendor": "Epic Games",
+      "iconDomain": "fortnite.com",
+      "description": "Marks Fortnite and the Epic Games launcher, store, and account services as a distraction with an optional 1 hour unlock on PC, mobile, and console.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["fortnite", "epic-games", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.fortnite.com", "label": "Fortnite subdomains" },
+        { "domain": "*.epicgames.com", "label": "Epic Games subdomains" },
+        { "domain": "*.epicusercontent.com", "label": "Epic user content subdomains" }
+      ]
+    },
+    {
+      "id": "spotify-full-block",
+      "name": "Spotify - Full Block",
+      "vendor": "Spotify AB",
+      "iconDomain": "spotify.com",
+      "description": "Fully blocks Spotify across DNS and browser enforcement, covering streaming, downloads, podcasts, and CDN infrastructure on PC, mobile, and TV.",
+      "category": "Entertainment",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["spotify", "music", "streaming", "entertainment", "full-block"],
+      "rules": [
+        { "domain": "*.spotify.com", "label": "Spotify subdomains" },
+        { "domain": "*.scdn.co", "label": "Spotify content CDN subdomains" },
+        { "domain": "*.spotifycdn.com", "label": "Spotify CDN subdomains" },
+        { "domain": "*.spoti.fi", "label": "Spotify short link subdomains" }
+      ]
+    },
+    {
+      "id": "spotify-distraction-unlock",
+      "name": "Spotify - Distraction with 1 Hour Unlock",
+      "vendor": "Spotify AB",
+      "iconDomain": "spotify.com",
+      "description": "Marks Spotify as a distraction with an optional 1 hour unlock, covering streaming, downloads, podcasts, and CDN infrastructure on PC, mobile, and TV.",
+      "category": "Entertainment",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["spotify", "music", "streaming", "entertainment", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.spotify.com", "label": "Spotify subdomains" },
+        { "domain": "*.scdn.co", "label": "Spotify content CDN subdomains" },
+        { "domain": "*.spotifycdn.com", "label": "Spotify CDN subdomains" },
+        { "domain": "*.spoti.fi", "label": "Spotify short link subdomains" }
+      ]
+    },
+    {
+      "id": "league-of-legends-riot-games-full-block",
+      "name": "League of Legends / Riot Games - Full Block",
+      "vendor": "Riot Games",
+      "iconDomain": "leagueoflegends.com",
+      "description": "Fully blocks League of Legends and Riot Games platform services across DNS and browser enforcement, covering the game client, store, and CDN on PC and mobile.",
+      "category": "Gaming",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["league-of-legends", "lol", "riot-games", "gaming", "full-block"],
+      "rules": [
+        { "domain": "*.leagueoflegends.com", "label": "League of Legends subdomains" },
+        { "domain": "*.riotgames.com", "label": "Riot Games subdomains" },
+        { "domain": "*.riotcdn.net", "label": "Riot Games CDN subdomains" }
+      ]
+    },
+    {
+      "id": "league-of-legends-riot-games-distraction-unlock",
+      "name": "League of Legends / Riot Games - Distraction with 1 Hour Unlock",
+      "vendor": "Riot Games",
+      "iconDomain": "leagueoflegends.com",
+      "description": "Marks League of Legends and Riot Games platform services as a distraction with an optional 1 hour unlock, covering the game client, store, and CDN on PC and mobile.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["league-of-legends", "lol", "riot-games", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.leagueoflegends.com", "label": "League of Legends subdomains" },
+        { "domain": "*.riotgames.com", "label": "Riot Games subdomains" },
+        { "domain": "*.riotcdn.net", "label": "Riot Games CDN subdomains" }
+      ]
+    },
+    {
+      "id": "vk-full-block",
+      "name": "VK - Full Block",
+      "vendor": "VK (VKontakte)",
+      "iconDomain": "vk.com",
+      "description": "Fully blocks VK across DNS and browser enforcement, covering social feed, messaging, audio, video, and media CDN infrastructure on PC, mobile, and TV.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["vk", "vkontakte", "social-media", "russia", "full-block"],
+      "rules": [
+        { "domain": "*.vk.com", "label": "VK subdomains" },
+        { "domain": "*.vk.me", "label": "VK messaging subdomains" },
+        { "domain": "*.vkuser.net", "label": "VK media CDN subdomains" },
+        { "domain": "*.vkuseraudio.net", "label": "VK audio CDN subdomains" },
+        { "domain": "*.vkvideo.ru", "label": "VK Video subdomains" },
+        { "domain": "*.userapi.com", "label": "VK media storage API subdomains" }
+      ]
+    },
+    {
+      "id": "vk-distraction-unlock",
+      "name": "VK - Distraction with 1 Hour Unlock",
+      "vendor": "VK (VKontakte)",
+      "iconDomain": "vk.com",
+      "description": "Marks VK as a distraction with an optional 1 hour unlock, covering social feed, messaging, audio, video, and media CDN infrastructure on PC, mobile, and TV.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["vk", "vkontakte", "social-media", "russia", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.vk.com", "label": "VK subdomains" },
+        { "domain": "*.vk.me", "label": "VK messaging subdomains" },
+        { "domain": "*.vkuser.net", "label": "VK media CDN subdomains" },
+        { "domain": "*.vkuseraudio.net", "label": "VK audio CDN subdomains" },
+        { "domain": "*.vkvideo.ru", "label": "VK Video subdomains" },
+        { "domain": "*.userapi.com", "label": "VK media storage API subdomains" }
+      ]
+    },
+    {
+      "id": "9gag-full-block",
+      "name": "9GAG - Full Block",
+      "vendor": "9GAG",
+      "iconDomain": "9gag.com",
+      "description": "Fully blocks 9GAG across DNS and browser enforcement, covering the website, app, and image/video CDN on PC, mobile, and tablet.",
+      "category": "Entertainment",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["9gag", "memes", "entertainment", "full-block"],
+      "rules": [
+        { "domain": "*.9gag.com", "label": "9GAG subdomains" },
+        { "domain": "*.9cache.com", "label": "9GAG media CDN subdomains" }
+      ]
+    },
+    {
+      "id": "9gag-distraction-unlock",
+      "name": "9GAG - Distraction with 1 Hour Unlock",
+      "vendor": "9GAG",
+      "iconDomain": "9gag.com",
+      "description": "Marks 9GAG as a distraction with an optional 1 hour unlock, covering the website, app, and image/video CDN on PC, mobile, and tablet.",
+      "category": "Entertainment",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["9gag", "memes", "entertainment", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.9gag.com", "label": "9GAG subdomains" },
+        { "domain": "*.9cache.com", "label": "9GAG media CDN subdomains" }
+      ]
+    },
+    {
+      "id": "dailymotion-full-block",
+      "name": "Dailymotion - Full Block",
+      "vendor": "Dailymotion",
+      "iconDomain": "dailymotion.com",
+      "description": "Fully blocks Dailymotion across DNS and browser enforcement, covering video streaming, embeds, and CDN infrastructure on PC, mobile, and TV.",
+      "category": "Entertainment",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["dailymotion", "video", "streaming", "entertainment", "full-block"],
+      "rules": [
+        { "domain": "*.dailymotion.com", "label": "Dailymotion subdomains" },
+        { "domain": "*.dmcdn.net", "label": "Dailymotion CDN subdomains" },
+        { "domain": "*.dai.ly", "label": "Dailymotion short link subdomains" }
+      ]
+    },
+    {
+      "id": "dailymotion-distraction-unlock",
+      "name": "Dailymotion - Distraction with 1 Hour Unlock",
+      "vendor": "Dailymotion",
+      "iconDomain": "dailymotion.com",
+      "description": "Marks Dailymotion as a distraction with an optional 1 hour unlock, covering video streaming, embeds, and CDN infrastructure on PC, mobile, and TV.",
+      "category": "Entertainment",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["dailymotion", "video", "streaming", "entertainment", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.dailymotion.com", "label": "Dailymotion subdomains" },
+        { "domain": "*.dmcdn.net", "label": "Dailymotion CDN subdomains" },
+        { "domain": "*.dai.ly", "label": "Dailymotion short link subdomains" }
+      ]
+    },
+    {
+      "id": "bereal-full-block",
+      "name": "BeReal - Full Block",
+      "vendor": "BeReal",
+      "iconDomain": "bereal.com",
+      "description": "Fully blocks BeReal across DNS and browser enforcement, covering the app, website, and media infrastructure on PC, mobile, and tablet.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["bereal", "social-media", "photo", "full-block"],
+      "rules": [
+        { "domain": "*.bereal.com", "label": "BeReal subdomains" },
+        { "domain": "*.bere.al", "label": "BeReal short domain subdomains" },
+        { "domain": "*.bereal.network", "label": "BeReal infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "bereal-distraction-unlock",
+      "name": "BeReal - Distraction with 1 Hour Unlock",
+      "vendor": "BeReal",
+      "iconDomain": "bereal.com",
+      "description": "Marks BeReal as a distraction with an optional 1 hour unlock, covering the app, website, and media infrastructure on PC, mobile, and tablet.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["bereal", "social-media", "photo", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.bereal.com", "label": "BeReal subdomains" },
+        { "domain": "*.bere.al", "label": "BeReal short domain subdomains" },
+        { "domain": "*.bereal.network", "label": "BeReal infrastructure subdomains" }
+      ]
+    },
+    {
+      "id": "snapchat-full-block",
+      "name": "Snapchat - Full Block",
+      "vendor": "Snap Inc.",
+      "iconDomain": "snapchat.com",
+      "description": "Fully blocks Snapchat across DNS and browser enforcement, covering snaps, stories, Spotlight, Bitmoji, and media CDN infrastructure on PC, mobile, and tablet.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["snapchat", "snap", "social-media", "full-block"],
+      "rules": [
+        { "domain": "*.snapchat.com", "label": "Snapchat subdomains" },
+        { "domain": "*.snap.com", "label": "Snap Inc. subdomains" },
+        { "domain": "*.snapkit.com", "label": "Snap Kit platform subdomains" },
+        { "domain": "*.sc-cdn.net", "label": "Snapchat media CDN subdomains" },
+        { "domain": "*.bitmoji.com", "label": "Bitmoji subdomains" }
+      ]
+    },
+    {
+      "id": "snapchat-distraction-unlock",
+      "name": "Snapchat - Distraction with 1 Hour Unlock",
+      "vendor": "Snap Inc.",
+      "iconDomain": "snapchat.com",
+      "description": "Marks Snapchat as a distraction with an optional 1 hour unlock, covering snaps, stories, Spotlight, Bitmoji, and media CDN infrastructure on PC, mobile, and tablet.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["snapchat", "snap", "social-media", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.snapchat.com", "label": "Snapchat subdomains" },
+        { "domain": "*.snap.com", "label": "Snap Inc. subdomains" },
+        { "domain": "*.snapkit.com", "label": "Snap Kit platform subdomains" },
+        { "domain": "*.sc-cdn.net", "label": "Snapchat media CDN subdomains" },
+        { "domain": "*.bitmoji.com", "label": "Bitmoji subdomains" }
+      ]
+    },
+    {
+      "id": "roblox-full-block",
+      "name": "Roblox - Full Block",
+      "vendor": "Roblox Corporation",
+      "iconDomain": "roblox.com",
+      "description": "Fully blocks Roblox across DNS and browser enforcement, covering the game platform, catalogue, chat, and CDN infrastructure on PC, mobile, and console.",
+      "category": "Gaming",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["roblox", "gaming", "full-block"],
+      "rules": [
+        { "domain": "*.roblox.com", "label": "Roblox subdomains" },
+        { "domain": "*.rbxcdn.com", "label": "Roblox CDN subdomains" },
+        { "domain": "*.robloxlabs.com", "label": "Roblox Labs subdomains" }
+      ]
+    },
+    {
+      "id": "roblox-distraction-unlock",
+      "name": "Roblox - Distraction with 1 Hour Unlock",
+      "vendor": "Roblox Corporation",
+      "iconDomain": "roblox.com",
+      "description": "Marks Roblox as a distraction with an optional 1 hour unlock, covering the game platform, catalogue, chat, and CDN infrastructure on PC, mobile, and console.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["roblox", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.roblox.com", "label": "Roblox subdomains" },
+        { "domain": "*.rbxcdn.com", "label": "Roblox CDN subdomains" },
+        { "domain": "*.robloxlabs.com", "label": "Roblox Labs subdomains" }
+      ]
+    },
+    {
+      "id": "minecraft-mojang-full-block",
+      "name": "Minecraft / Mojang - Full Block",
+      "vendor": "Mojang Studios (Microsoft)",
+      "iconDomain": "minecraft.net",
+      "description": "Fully blocks Minecraft across DNS and browser enforcement, covering the game client, authentication, skin service, and Mojang account services on PC, mobile, and console.",
+      "category": "Gaming",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["minecraft", "mojang", "gaming", "full-block"],
+      "rules": [
+        { "domain": "*.minecraft.net", "label": "Minecraft subdomains" },
+        { "domain": "*.mojang.com", "label": "Mojang Studios subdomains" },
+        { "domain": "*.minecraftservices.com", "label": "Minecraft services subdomains" },
+        { "domain": "*.minecraftdungeons.net", "label": "Minecraft Dungeons subdomains" }
+      ]
+    },
+    {
+      "id": "minecraft-mojang-distraction-unlock",
+      "name": "Minecraft / Mojang - Distraction with 1 Hour Unlock",
+      "vendor": "Mojang Studios (Microsoft)",
+      "iconDomain": "minecraft.net",
+      "description": "Marks Minecraft as a distraction with an optional 1 hour unlock, covering the game client, authentication, skin service, and Mojang account services on PC, mobile, and console.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["minecraft", "mojang", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.minecraft.net", "label": "Minecraft subdomains" },
+        { "domain": "*.mojang.com", "label": "Mojang Studios subdomains" },
+        { "domain": "*.minecraftservices.com", "label": "Minecraft services subdomains" },
+        { "domain": "*.minecraftdungeons.net", "label": "Minecraft Dungeons subdomains" }
+      ]
+    },
+    {
+      "id": "whatsapp-full-block",
+      "name": "WhatsApp - Full Block",
+      "vendor": "Meta",
+      "iconDomain": "whatsapp.com",
+      "description": "Fully blocks WhatsApp across DNS and browser enforcement, covering messaging, voice, video calls, and media delivery infrastructure on PC, mobile, and tablet.",
+      "category": "Social Media",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["whatsapp", "meta", "messaging", "social-media", "full-block"],
+      "rules": [
+        { "domain": "*.whatsapp.com", "label": "WhatsApp subdomains" },
+        { "domain": "*.whatsapp.net", "label": "WhatsApp messaging infrastructure subdomains" },
+        { "domain": "*.wa.me", "label": "WhatsApp click-to-chat subdomains" }
+      ]
+    },
+    {
+      "id": "whatsapp-distraction-unlock",
+      "name": "WhatsApp - Distraction with 1 Hour Unlock",
+      "vendor": "Meta",
+      "iconDomain": "whatsapp.com",
+      "description": "Marks WhatsApp as a distraction with an optional 1 hour unlock, covering messaging, voice, video calls, and media delivery infrastructure on PC, mobile, and tablet.",
+      "category": "Social Media",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["whatsapp", "meta", "messaging", "social-media", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.whatsapp.com", "label": "WhatsApp subdomains" },
+        { "domain": "*.whatsapp.net", "label": "WhatsApp messaging infrastructure subdomains" },
+        { "domain": "*.wa.me", "label": "WhatsApp click-to-chat subdomains" }
+      ]
+    },
+    {
+      "id": "playstation-network-full-block",
+      "name": "PlayStation Network - Full Block",
+      "vendor": "Sony Interactive Entertainment",
+      "iconDomain": "playstation.com",
+      "description": "Fully blocks PlayStation Network across DNS and browser enforcement, covering the PS Store, online gaming, account services, and PSN backend infrastructure on console, PC, and mobile.",
+      "category": "Gaming",
+      "defaultType": "blocked",
+      "defaultSinkhole": true,
+      "defaultAllowOneHourUnlock": false,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["playstation", "psn", "sony", "gaming", "full-block"],
+      "rules": [
+        { "domain": "*.playstation.com", "label": "PlayStation subdomains" },
+        { "domain": "*.playstation.net", "label": "PSN backend services subdomains" },
+        { "domain": "*.sonyentertainmentnetwork.com", "label": "Sony Entertainment Network subdomains" }
+      ]
+    },
+    {
+      "id": "playstation-network-distraction-unlock",
+      "name": "PlayStation Network - Distraction with 1 Hour Unlock",
+      "vendor": "Sony Interactive Entertainment",
+      "iconDomain": "playstation.com",
+      "description": "Marks PlayStation Network as a distraction with an optional 1 hour unlock, covering the PS Store, online gaming, account services, and PSN backend infrastructure on console, PC, and mobile.",
+      "category": "Gaming",
+      "defaultType": "distraction",
+      "defaultSinkhole": false,
+      "defaultAllowOneHourUnlock": true,
+      "defaultRequireTotpUnlock": false,
+      "defaultAllowedHours": { "enabled": false, "start": null, "end": null, "activeDays": [] },
+      "tags": ["playstation", "psn", "sony", "gaming", "distraction", "one-hour-unlock"],
+      "rules": [
+        { "domain": "*.playstation.com", "label": "PlayStation subdomains" },
+        { "domain": "*.playstation.net", "label": "PSN backend services subdomains" },
+        { "domain": "*.sonyentertainmentnetwork.com", "label": "Sony Entertainment Network subdomains" }
+      ]
+    }
+  ]
+}

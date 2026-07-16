@@ -1,4 +1,11 @@
 {
+  "schemaVersion": 1,
+  "atlasVersion": "2026.05.17.2",
+  "updatedUtc": "2026-05-17T00:00:00Z",
+  "metadata": {
+    "source": "Nox Atlas",
+    "maintainer": "Noximaze Software Solutions"
+  },
   "domain_rules": {
     "example.com": ["TEST"],
     "192.168.*": ["Local Network"],
@@ -380,6 +387,7 @@
     "annualcreditreport.com": ["Finance", "Credit"],
     "creditkarma.com": ["Finance", "Credit"],
     "creditsesame.com": ["Finance", "Credit"],
+    "logmein.com": ["Remote Access"],
     "myfico.com": ["Finance", "Credit"]
   },
 
